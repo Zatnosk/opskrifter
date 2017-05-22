@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8>
+	<title>Opskrifter</title>
+	<link rel="stylesheet" href="mavo.css">
+	<script src="mavo.js"></script>
+</head>
+<body>
+<div mv-app=opskrifter mv-storage="https://github.com/zatnosk/opskrifter">
+	<article property=opskrift mv-multiple>
+		<h1 property=titel></h1>
+		<ul property=komponent mv-multiple>
+			<h2 property=komponent-navn></h2>
+			<li mv-multiple property=ingrediens>
+				<span property=mængde></span>
+				<span property=enhed></span>
+				<span property=navn></span>
+			</li>
+		</ul>
+		<p property=fremgangsmåde></p>
+	</article>
+</div>
+</body>
+</html>
