@@ -1,1 +1,266 @@
-{	"opskrift": [		{			"titel": "Porre/bacon tærte",			"ingredienser": {				"ingrediens": [					{						"mængde": "150",						"enhed": "g",						"navn": "mel"					},					{						"mængde": "75",						"enhed": "g",						"navn": "smør"					}				]			},			"ingrediensgruppe": [				{					"ingrediens": []				}			],			"komponent": [				{					"undefined": {						"ingrediens": []					},					"komponent-navn": "Bund",					"ingrediens": [						{							"mængde": "150",							"enhed": "g",							"navn": "mel"						},						{							"mængde": "75",							"enhed": "g",							"navn": "smør"						},						{							"mængde": "1",							"navn": "æggeblomme"						},						{							"navn": "salt"						}					]				},				{					"komponent-navn": "Æggemasse",					"ingrediens": [						{							"mængde": "3",							"navn": "æg"						},						{							"mængde": "250",							"enhed": "ml",							"navn": "skyr el. creme fraiche"						},						{							"navn": "salt"						},						{							"navn": "peber"						},						{							"navn": "evt. muskatnød"						}					]				},				{					"komponent-navn": "Fyld",					"ingrediens": [						{							"mængde": "3",							"navn": "porrer"						},						{							"mængde": "200",							"enhed": "g",							"navn": "bacon"						}					]				}			],			"fremgangsmåde": "Lav tærten, den er god!"		},		{			"titel": "Wok",			"komponent": [				{					"ingrediens": [						{							"mængde": "3",							"navn": "Gulerødder"						},						{							"mængde": "1",							"enhed": "dåse",							"navn": "Minimajs"						},						{							"navn": "Rød peberfrugt"						},						{							"navn": "Nudler"						},						{							"mængde": "4",							"navn": "Forårsløg"						},						{							"mængde": "300",							"enhed": "g",							"navn": "Kylling"						},						{							"mængde": "½",							"enhed": "dl",							"navn": "Soya"						},						{							"mængde": "1",							"enhed": "tsk",							"navn": "Sukker"						}					]				}			]		}	]}
+{
+	"opskrift": [
+		{
+			"titel": "Porre/bacon tærte",
+			"ingredienser": {
+				"ingrediens": [
+					{
+						"mængde": "150",
+						"enhed": "g",
+						"navn": "mel"
+					},
+					{
+						"mængde": "75",
+						"enhed": "g",
+						"navn": "smør"
+					}
+				]
+			},
+			"ingrediensgruppe": [
+				{
+					"ingrediens": []
+				}
+			],
+			"komponent": [
+				{
+					"undefined": {
+						"ingrediens": []
+					},
+					"komponent-navn": "Bund",
+					"ingrediens": [
+						{
+							"mængde": "150",
+							"enhed": "g",
+							"navn": "mel"
+						},
+						{
+							"mængde": "75",
+							"enhed": "g",
+							"navn": "smør"
+						},
+						{
+							"mængde": "1",
+							"navn": "æggeblomme"
+						},
+						{
+							"navn": "salt"
+						}
+					]
+				},
+				{
+					"komponent-navn": "Æggemasse",
+					"ingrediens": [
+						{
+							"mængde": "3",
+							"navn": "æg"
+						},
+						{
+							"mængde": "250",
+							"enhed": "ml",
+							"navn": "skyr el. creme fraiche"
+						},
+						{
+							"navn": "salt"
+						},
+						{
+							"navn": "peber"
+						},
+						{
+							"navn": "evt. muskatnød"
+						}
+					]
+				},
+				{
+					"komponent-navn": "Fyld",
+					"ingrediens": [
+						{
+							"mængde": "3",
+							"navn": "porrer"
+						},
+						{
+							"mængde": "200",
+							"enhed": "g",
+							"navn": "bacon"
+						}
+					]
+				}
+			],
+			"fremgangsmåde": "Lav tærten, den er god!"
+		},
+		{
+			"titel": "Wok",
+			"komponent": [
+				{
+					"ingrediens": [
+						{
+							"mængde": "3",
+							"navn": "Gulerødder"
+						},
+						{
+							"mængde": "1",
+							"enhed": "dåse",
+							"navn": "Minimajs"
+						},
+						{
+							"navn": "Rød peberfrugt"
+						},
+						{
+							"navn": "Nudler"
+						},
+						{
+							"mængde": "4",
+							"navn": "Forårsløg"
+						},
+						{
+							"mængde": "300",
+							"enhed": "g",
+							"navn": "Kylling"
+						},
+						{
+							"mængde": "½",
+							"enhed": "dl",
+							"navn": "Soya"
+						},
+						{
+							"mængde": "1",
+							"enhed": "tsk",
+							"navn": "Sukker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"titel": "Græsk salat",
+			"komponent": [
+				{
+					"ingrediens": [
+						{
+							"mængde": "3",
+							"enhed": "spsk",
+							"navn": "Olivenolie"
+						},
+						{
+							"mængde": "1,5",
+							"enhed": "spsk",
+							"navn": "Citronsaft"
+						},
+						{
+							"mængde": "1/4",
+							"navn": "Rødløg"
+						},
+						{
+							"mængde": "1/2",
+							"navn": "Agurk"
+						},
+						{
+							"mængde": "3",
+							"navn": "Tomater"
+						},
+						{
+							"mængde": "1/2",
+							"navn": "Grøn peber"
+						},
+						{
+							"mængde": "120",
+							"enhed": "g",
+							"navn": "Feta i tern"
+						},
+						{
+							"mængde": "16",
+							"navn": "Kalamata oliven"
+						},
+						{
+							"mængde": "3",
+							"enhed": "spsk",
+							"navn": "\"Krydderi\""
+						}
+					]
+				}
+			]
+		},
+		{
+			"titel": "Tzatziki",
+			"komponent": [
+				{
+					"ingrediens": [
+						{
+							"mængde": "500",
+							"enhed": "ml",
+							"navn": "græsk yogurt"
+						},
+						{
+							"mængde": "1",
+							"enhed": "spsk",
+							"navn": "olivenolie"
+						},
+						{
+							"mængde": "1/2",
+							"enhed": "spsk",
+							"navn": "vineddike"
+						},
+						{
+							"mængde": "1",
+							"navn": "agurk"
+						},
+						{
+							"mængde": "x",
+							"enhed": "fed",
+							"navn": "hvidløg"
+						}
+					]
+				}
+			]
+		},
+		{
+			"titel": "Mørbrad m. bønner & bacon",
+			"komponent": [
+				{
+					"komponent-navn": "Mørbrad",
+					"ingrediens": [
+						{
+							"mængde": "1",
+							"navn": "svinemørbrad"
+						},
+						{
+							"navn": "salt"
+						},
+						{
+							"navn": "peber"
+						},
+						{
+							"mængde": "2",
+							"enhed": "tsk",
+							"navn": "olivenolie"
+						}
+					]
+				},
+				{
+					"komponent-navn": "Bønner & bacon",
+					"ingrediens": [
+						{
+							"mængde": "600",
+							"enhed": "g",
+							"navn": "frosne grønne bønner"
+						},
+						{
+							"mængde": "140",
+							"enhed": "g",
+							"navn": "fuldkornspasta"
+						},
+						{
+							"mængde": "100",
+							"enhed": "g",
+							"navn": "bacon"
+						},
+						{
+							"mængde": "100",
+							"enhed": "g",
+							"navn": "pikant ost"
+						}
+					]
+				}
+			]
+		}
+	]
+}
