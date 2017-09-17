@@ -318,6 +318,75 @@
 				}
 			],
 			"fremgangsmåde": "Kog risene. Steg kyllingen. Skær svampene i skriver og rist dem, tilsæt løg, hvidløg, forårsløg. Tilsæt revne gulerødder. Lav røræg på en anden pande af æggene, og tilsæt til grøntsagerne.\nBland risene i. Drys sukker over, hæld soja på."
+		},
+		{
+			"titel": "Wraps",
+			"komponent": [
+				{
+					"ingrediens": [
+						{
+							"mængde": "4",
+							"navn": "tortilla pandekager"
+						},
+						{
+							"mængde": "1",
+							"enhed": "pakke",
+							"navn": "kylling"
+						},
+						{
+							"mængde": "1/2",
+							"navn": "peberfrugt"
+						},
+						{
+							"mængde": "1/2",
+							"enhed": "(lille) dåse",
+							"navn": "majs"
+						},
+						{
+							"navn": "agurk"
+						},
+						{
+							"navn": "løg"
+						},
+						{
+							"navn": "ketchup el. sød chili sauce"
+						}
+					]
+				}
+			]
+		},
+		{
+			"titel": "Den nemme ret",
+			"komponent": [
+				{
+					"ingrediens": [
+						{
+							"mængde": "2/3",
+							"enhed": "pakke",
+							"navn": "grøntsagspasta"
+						},
+						{
+							"mængde": "1",
+							"enhed": "pakke",
+							"navn": "krydrede pølser"
+						},
+						{
+							"mængde": "100-200",
+							"enhed": "g",
+							"navn": "champignon i skiver"
+						},
+						{
+							"navn": "spinat"
+						},
+						{
+							"navn": "feta"
+						},
+						{
+							"navn": "små tomater"
+						}
+					]
+				}
+			]
 		}
 	]
 }
