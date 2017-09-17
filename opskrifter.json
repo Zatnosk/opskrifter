@@ -261,6 +261,63 @@
 					]
 				}
 			]
+		},
+		{
+			"titel": "Risret",
+			"komponent": [
+				{
+					"ingrediens": [
+						{
+							"mængde": "3",
+							"enhed": "dl",
+							"navn": "brune ris"
+						},
+						{
+							"mængde": "200",
+							"enhed": "g",
+							"navn": "kylling"
+						},
+						{
+							"mængde": "400",
+							"enhed": "g",
+							"navn": "portobellosvampe"
+						},
+						{
+							"mængde": "4",
+							"navn": "gulerødder"
+						},
+						{
+							"mængde": "1",
+							"navn": "løg"
+						},
+						{
+							"mængde": "2",
+							"enhed": "fed",
+							"navn": "hvidløg"
+						},
+						{
+							"mængde": "4",
+							"navn": "æg"
+						},
+						{
+							"mængde": "1",
+							"enhed": "tsk",
+							"navn": "sukker"
+						},
+						{
+							"mængde": "1",
+							"enhed": "dl",
+							"navn": "soja"
+						},
+						{
+							"mængde": "1",
+							"enhed": "bundt",
+							"navn": "forårsløg"
+						}
+					]
+				}
+			],
+			"fremgangsmåde": "Kog risene. Steg kyllingen. Skær svampene i skriver og rist dem, tilsæt løg, hvidløg, forårsløg. Tilsæt revne gulerødder. Lav røræg på en anden pande af æggene, og tilsæt til grøntsagerne.\nBland risene i. Drys sukker over, hæld soja på."
 		}
 	]
 }
