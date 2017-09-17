@@ -387,6 +387,14 @@
 					]
 				}
 			]
+		},
+		{
+			"titel": "Lasagne",
+			"komponent": [
+				{
+					"ingrediens": []
+				}
+			]
 		}
 	]
 }
