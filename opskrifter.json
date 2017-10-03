@@ -421,6 +421,15 @@
 							"mængde": "1",
 							"enhed": "Bundt",
 							"navn": "Forårsløg"
+						},
+						{
+							"mængde": "2",
+							"enhed": "l",
+							"navn": "Vand"
+						},
+						{
+							"mængde": "4",
+							"navn": "Buillion terninger"
 						}
 					]
 				}
