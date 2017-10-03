@@ -395,6 +395,36 @@
 					"ingrediens": []
 				}
 			]
+		},
+		{
+			"titel": "Suppe",
+			"komponent": [
+				{
+					"ingrediens": [
+						{
+							"mængde": "7",
+							"navn": "Kartofler"
+						},
+						{
+							"mængde": "3",
+							"navn": "Porrer"
+						},
+						{
+							"mængde": "2",
+							"navn": "Løg"
+						},
+						{
+							"mængde": "5",
+							"navn": "Gulerødder"
+						},
+						{
+							"mængde": "1",
+							"enhed": "Bundt",
+							"navn": "Forårsløg"
+						}
+					]
+				}
+			]
 		}
 	]
 }
