@@ -489,7 +489,43 @@
 			"titel": "Ristaffel",
 			"komponent": [
 				{
-					"ingrediens": []
+					"ingrediens": [
+						{
+							"navn": "Kylling"
+						},
+						{
+							"navn": "Ris"
+						},
+						{
+							"navn": "Sød chili sauce"
+						}
+					]
+				},
+				{
+					"komponent-navn": "Tilbehør",
+					"ingrediens": [
+						{
+							"navn": "Rosiner"
+						},
+						{
+							"navn": "Peberfrugt"
+						},
+						{
+							"navn": "Agurk"
+						},
+						{
+							"navn": "Majs"
+						},
+						{
+							"navn": "Peanuts"
+						},
+						{
+							"navn": "Kokos"
+						},
+						{
+							"navn": "Bambusskud"
+						}
+					]
 				}
 			]
 		}
