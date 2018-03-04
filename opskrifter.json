@@ -526,6 +526,35 @@
 							"navn": "Bambusskud"
 						}
 					]
+				},
+				{
+					"komponent-navn": "Karrysauce",
+					"ingrediens": [
+						{
+							"mængde": "1",
+							"navn": "Løg"
+						},
+						{
+							"mængde": "15",
+							"enhed": "g",
+							"navn": "Smør"
+						},
+						{
+							"mængde": "1,5",
+							"enhed": "spsk",
+							"navn": "Mel"
+						},
+						{
+							"mængde": "2",
+							"enhed": "tsk",
+							"navn": "Karry"
+						},
+						{
+							"mængde": "5",
+							"enhed": "dl",
+							"navn": "Hønsebuillion"
+						}
+					]
 				}
 			]
 		}
