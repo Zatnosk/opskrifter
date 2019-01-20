@@ -558,6 +558,36 @@
 				}
 			],
 			"fremgangsmåde": "Lav halv portion karrysauce til 2 mennesker"
+		},
+		{
+			"titel": "Pasta-wok",
+			"komponent": [
+				{
+					"ingrediens": [
+						{
+							"navn": "Kylling"
+						},
+						{
+							"navn": "Grønkål"
+						},
+						{
+							"navn": "Hvidkål"
+						},
+						{
+							"navn": "Squash"
+						},
+						{
+							"navn": "Minimajs"
+						},
+						{
+							"navn": "Pasta"
+						},
+						{
+							"navn": "Sød chili sovs"
+						}
+					]
+				}
+			]
 		}
 	]
 }
