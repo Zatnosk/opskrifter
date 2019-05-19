@@ -588,6 +588,31 @@
 					]
 				}
 			]
+		},
+		{
+			"titel": "Wok+pasta",
+			"komponent": [
+				{
+					"ingrediens": [
+						{
+							"navn": "Squash"
+						},
+						{
+							"navn": "Rød peberfrugt"
+						},
+						{
+							"navn": "Minimajs"
+						},
+						{
+							"navn": "Gulerødder"
+						},
+						{
+							"navn": "Kylling"
+						}
+					]
+				}
+			],
+			"fremgangsmåde": "Riv gulerødderne"
 		}
 	]
 }
