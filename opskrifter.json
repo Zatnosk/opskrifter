@@ -613,6 +613,21 @@
 				}
 			],
 			"fremgangsmåde": "Riv gulerødderne"
+		},
+		{
+			"titel": "Fiskefrikadeller+kartofler",
+			"komponent": [
+				{
+					"ingrediens": [
+						{
+							"navn": "Fiskefars"
+						},
+						{
+							"navn": "Kartofler"
+						}
+					]
+				}
+			]
 		}
 	]
 }
