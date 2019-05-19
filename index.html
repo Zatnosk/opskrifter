@@ -5,21 +5,143 @@
 	<title>Opskrifter</title>
 	<link rel="stylesheet" href="mavo.css">
 	<script src="mavo.js"></script>
+	<style>
+		.row {
+			display: flex;
+		}
+		.indkøbsliste {
+			flex: 1 1 0px;
+		}
+		.opskrifter {
+			flex: 3 3 0px;
+			grid-column: 2;
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+			grid-gap: 1rem;
+		}
+		[property=opskrift][data-på-indkøbslisten] summary {
+			background-color: lightgreen;
+		}
+		summary {
+			padding: .5rem;
+			padding-right: 4rem;
+			display: flex;
+		}
+		summary span {
+			flex-grow: 1;
+			margin-right: 1rem;
+		}
+		summary span input {
+			width: 100% !important;
+		}
+		details {
+			border: solid 1px black;
+		}
+		.indkøbsknap {
+			padding: 0rem 1rem;
+		}
+	</style>
 </head>
 <body>
-<div mv-app=opskrifter mv-storage="https://github.com/zatnosk/opskrifter">
-	<article property=opskrift mv-multiple>
-		<h1 property=titel></h1>
-		<ul property=komponent mv-multiple>
-			<h2 property=komponent-navn></h2>
-			<li mv-multiple property=ingrediens>
-				<span property=mængde></span>
-				<span property=enhed></span>
-				<span property=navn></span>
-			</li>
-		</ul>
-		<p property=fremgangsmåde></p>
-	</article>
-</div>
+<main mv-app=opskrifter mv-storage="https://github.com/zatnosk/opskrifter">
+	<div class=row>
+		<ul class=indkøbsliste></ul>
+		<div class=opskrifter>
+			<details property=opskrift mv-multiple>
+				<summary>
+					<span property=titel></span>
+					<button class=indkøbsknap onclick="Indkøb.toggle(event);">Indkøb</button>
+				</summary>
+				<ul property=komponent mv-multiple>
+					<h2 property=komponent-navn></h2>
+					<li mv-multiple property=ingrediens>
+						<span property=mængde></span>
+						<span property=enhed></span>
+						<span property=navn></span>
+					</li>
+				</ul>
+				<p property=fremgangsmåde></p>
+			</details>
+		</div>
+	</div>
+</main>
+<script>
+	function getAncestorByAttribute(element,attribute,value){
+		while(element && element.getAttribute(attribute) != value){
+			element = element.parentElement
+		}
+		return element
+	}
+
+	const Indkøb = (()=>{
+		const indkøbsliste = document.querySelector('.indkøbsliste')
+
+		function toggle(event) {
+			event.stopPropagation()
+			event.preventDefault()
+			const opskrift = getAncestorByAttribute(event.target,'property','opskrift')
+			if(typeof opskrift.dataset.påIndkøbslisten == 'undefined'){
+				opskrift.dataset.påIndkøbslisten = ''
+				tilføjOpskrift(opskrift)
+			} else {
+				delete opskrift.dataset.påIndkøbslisten
+				nulstilIndkøbslisten()
+			}
+			sorter()
+		}
+
+		function tilføjOpskrift(opskrift){
+			const ingredienser = opskrift.querySelectorAll('[property=ingrediens]')
+			for(let ingrediens of ingredienser){
+				tilføjIngrediens(ingrediens.querySelector('[property=navn]').textContent)
+			}
+		}
+
+		function tilføjIngrediens(navn){
+			navn = normaliserIngrediens(navn)
+			let li = indkøbsliste.querySelector('[data-ingrediens="'+navn+'"]')
+			if(!li){
+				const li = document.createElement('li');
+				li.textContent = navn
+				li.dataset.ingrediens = navn
+				indkøbsliste.appendChild(li)
+			}
+		}
+
+		function nulstilIndkøbslisten(){
+			indkøbsliste.innerHTML = ''
+			const opskrifter = document.querySelectorAll('.opskrifter [property=opskrift][data-på-indkøbslisten]')
+			console.log(opskrifter)
+			for(let opskrift of opskrifter){
+				tilføjOpskrift(opskrift)
+			}
+		}
+
+		function normaliserIngrediens(navn){
+			navn = navn.toLowerCase().replace("\n",', ').replace(/["']/,'')
+			return navn[0].toUpperCase() + navn.substr(1)
+		}
+
+		function sorter(){
+			ingredienser = Array.from(indkøbsliste.querySelectorAll('li'))
+			ingredienser.sort((a,b) => {
+				if(a.dataset.ingrediens < b.dataset.ingrediens){
+					return -1
+				} else if(a.dataset.ingrediens > b.dataset.ingrediens){
+					return 1
+				} else {
+					return 0
+				}
+			})
+			for(let ingrediens of ingredienser){
+				indkøbsliste.appendChild(ingrediens)
+			}
+		}
+		
+		return {
+			toggle:toggle
+		}
+	})()
+</script>
 </body>
 </html>
