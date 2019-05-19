@@ -57,7 +57,7 @@
 						{
 							"mængde": "250",
 							"enhed": "ml",
-							"navn": "skyr el. creme fraiche"
+							"navn": "skyr / creme fraiche"
 						},
 						{
 							"navn": "salt"
@@ -66,7 +66,7 @@
 							"navn": "peber"
 						},
 						{
-							"navn": "evt. muskatnød"
+							"navn": "muskatnød"
 						}
 					]
 				},
@@ -470,14 +470,6 @@
 			]
 		},
 		{
-			"titel": "Pasta & Kødsovs",
-			"komponent": [
-				{
-					"ingrediens": []
-				}
-			]
-		},
-		{
 			"titel": "Pitabrød m tun & æg",
 			"komponent": [
 				{
@@ -584,6 +576,105 @@
 						},
 						{
 							"navn": "Sød chili sovs"
+						}
+					]
+				}
+			]
+		},
+		{
+			"titel": "Wok+pasta",
+			"komponent": [
+				{
+					"ingrediens": [
+						{
+							"navn": "Squash"
+						},
+						{
+							"navn": "Rød peberfrugt"
+						},
+						{
+							"navn": "Minimajs"
+						},
+						{
+							"navn": "Gulerødder"
+						},
+						{
+							"navn": "Kylling"
+						}
+					]
+				}
+			],
+			"fremgangsmåde": "Riv gulerødderne"
+		},
+		{
+			"titel": "Fiskefrikadeller+kartofler",
+			"komponent": [
+				{
+					"ingrediens": [
+						{
+							"navn": "Fiskefars"
+						},
+						{
+							"navn": "Kartofler"
+						}
+					]
+				}
+			]
+		},
+		{
+			"titel": "Græsk",
+			"komponent": [
+				{
+					"ingrediens": [
+						{
+							"navn": "Svinetern"
+						},
+						{
+							"navn": "Tzatziki"
+						},
+						{
+							"navn": "Fladbrød"
+						}
+					]
+				},
+				{
+					"komponent-navn": "Salat",
+					"ingrediens": [
+						{
+							"navn": "Tomater"
+						},
+						{
+							"navn": "Agurk"
+						},
+						{
+							"navn": "Rødløg"
+						},
+						{
+							"navn": "Rød Peberfrugt"
+						},
+						{
+							"navn": "Oliven"
+						},
+						{
+							"navn": "Feta"
+						}
+					]
+				}
+			]
+		},
+		{
+			"titel": "Pasta & \"Kød\"sovs",
+			"komponent": [
+				{
+					"ingrediens": [
+						{
+							"navn": "Pasta"
+						},
+						{
+							"navn": "Plantekød"
+						},
+						{
+							"navn": "Hakket tomat"
 						}
 					]
 				}
