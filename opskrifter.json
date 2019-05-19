@@ -633,6 +633,46 @@
 			"titel": "Græsk",
 			"komponent": [
 				{
+					"ingrediens": [
+						{
+							"navn": "Svinetern"
+						},
+						{
+							"navn": "Tzatziki"
+						},
+						{
+							"navn": "Fladbrød"
+						}
+					]
+				},
+				{
+					"komponent-navn": "Salat",
+					"ingrediens": [
+						{
+							"navn": "Tomater"
+						},
+						{
+							"navn": "Agurk"
+						},
+						{
+							"navn": "Rødløg"
+						},
+						{
+							"navn": "Rød Peberfrugt"
+						},
+						{
+							"navn": "Oliven"
+						},
+						{
+							"navn": "Feta"
+						}
+					]
+				}
+			]
+		},
+		{
+			"komponent": [
+				{
 					"ingrediens": []
 				}
 			]
