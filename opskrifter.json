@@ -470,14 +470,6 @@
 			]
 		},
 		{
-			"titel": "Pasta & Kødsovs",
-			"komponent": [
-				{
-					"ingrediens": []
-				}
-			]
-		},
-		{
 			"titel": "Pitabrød m tun & æg",
 			"komponent": [
 				{
@@ -671,9 +663,20 @@
 			]
 		},
 		{
+			"titel": "Pasta & \"Kød\"sovs",
 			"komponent": [
 				{
-					"ingrediens": []
+					"ingrediens": [
+						{
+							"navn": "Pasta"
+						},
+						{
+							"navn": "Plantekød"
+						},
+						{
+							"navn": "Hakket tomat"
+						}
+					]
 				}
 			]
 		}
