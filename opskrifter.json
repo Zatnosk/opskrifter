@@ -808,6 +808,27 @@
 					]
 				}
 			]
+		},
+		{
+			"titel": "Biksemad",
+			"komponent": [
+				{
+					"ingrediens": [
+						{
+							"navn": "kartofler"
+						},
+						{
+							"navn": "pølser"
+						},
+						{
+							"navn": "løg"
+						},
+						{
+							"navn": "ketchup"
+						}
+					]
+				}
+			]
 		}
 	]
 }
