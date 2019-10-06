@@ -740,9 +740,70 @@
 							"navn": "Grødris"
 						},
 						{
-							"mængde": "2",
+							"mængde": "3",
 							"enhed": "liter",
 							"navn": "Sødmælk"
+						}
+					]
+				}
+			]
+		},
+		{
+			"titel": "Frikadeller",
+			"komponent": [
+				{
+					"ingrediens": [
+						{
+							"mængde": "500",
+							"enhed": "g",
+							"navn": "hakket kalv & flæsk"
+						},
+						{
+							"navn": "mælk"
+						},
+						{
+							"navn": "mel"
+						},
+						{
+							"mængde": "1",
+							"navn": "æg"
+						},
+						{
+							"mængde": "1",
+							"navn": "løg"
+						}
+					]
+				}
+			]
+		},
+		{
+			"titel": "Kartofler, brun sovs & rødkål",
+			"komponent": [
+				{
+					"ingrediens": [
+						{
+							"mængde": "500g",
+							"navn": "kartofler"
+						},
+						{
+							"navn": "rødkål"
+						}
+					]
+				},
+				{
+					"komponent-navn": "Brun sovs",
+					"ingrediens": [
+						{
+							"navn": "mel"
+						},
+						{
+							"navn": "mælk"
+						},
+						{
+							"navn": "smør"
+						},
+						{
+							"navn": "sovsekulør"
 						}
 					]
 				}
