@@ -679,6 +679,74 @@
 					]
 				}
 			]
+		},
+		{
+			"titel": "Tomatsovs & pinjekerner & rucola",
+			"komponent": [
+				{
+					"ingrediens": [
+						{
+							"mængde": "2",
+							"enhed": "glas",
+							"navn": "tomatsovs"
+						},
+						{
+							"mængde": "1",
+							"enhed": "pakke",
+							"navn": "bacon"
+						},
+						{
+							"mængde": "35",
+							"enhed": "g",
+							"navn": "pinjekerner"
+						},
+						{
+							"navn": "rucola"
+						},
+						{
+							"navn": "pasta"
+						}
+					]
+				}
+			]
+		},
+		{
+			"titel": "Gulerødder+blomkål",
+			"komponent": [
+				{
+					"ingrediens": [
+						{
+							"navn": "gulerødder"
+						},
+						{
+							"navn": "blomkål"
+						},
+						{
+							"navn": "pasta"
+						},
+						{
+							"navn": "kylling"
+						}
+					]
+				}
+			]
+		},
+		{
+			"titel": "Risengrød",
+			"komponent": [
+				{
+					"ingrediens": [
+						{
+							"navn": "Grødris"
+						},
+						{
+							"mængde": "2",
+							"enhed": "liter",
+							"navn": "Sødmælk"
+						}
+					]
+				}
+			]
 		}
 	]
 }
