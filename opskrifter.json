@@ -905,6 +905,45 @@
 					]
 				}
 			]
+		},
+		{
+			"titel": "Poké Bowl",
+			"komponent": [
+				{
+					"ingrediens": [
+						{
+							"navn": "Tempura rejer"
+						},
+						{
+							"navn": "Ris"
+						},
+						{
+							"navn": "Forårsløg"
+						},
+						{
+							"navn": "Sesamfrø, ristede"
+						}
+					]
+				},
+				{
+					"komponent-navn": "Sovs",
+					"ingrediens": [
+						{
+							"navn": "Blomkål"
+						},
+						{
+							"navn": "Løg"
+						},
+						{
+							"navn": "Hvidløg"
+						},
+						{
+							"navn": "Sursødsovs"
+						}
+					]
+				}
+			],
+			"fremgangsmåde": "Start med sovs; løg + hvidløg på dyb pande, derefter  blomkål i mundrette buketter, sursødsovsen skal simre i 15 minuter."
 		}
 	]
 }
