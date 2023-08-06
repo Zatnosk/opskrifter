@@ -829,6 +829,82 @@
 					]
 				}
 			]
+		},
+		{
+			"titel": "Græsk Vegetar",
+			"komponent": [
+				{
+					"komponent-navn": "Salat",
+					"ingrediens": [
+						{
+							"navn": "Tomager"
+						},
+						{
+							"navn": "Agurk"
+						},
+						{
+							"navn": "Rødløg"
+						},
+						{
+							"navn": "Peberfrugt"
+						},
+						{
+							"navn": "Oliven"
+						},
+						{
+							"navn": "Feta"
+						}
+					]
+				},
+				{
+					"komponent-navn": "Salat dressing",
+					"ingrediens": [
+						{
+							"mængde": "3",
+							"enhed": "spsk",
+							"navn": "Citronsaft"
+						},
+						{
+							"mængde": "3",
+							"enhed": "spsk",
+							"navn": "Olivenolie"
+						},
+						{
+							"navn": "Oregano"
+						},
+						{
+							"navn": "Basilikum"
+						}
+					]
+				},
+				{
+					"komponent-navn": "Grillspyd",
+					"ingrediens": [
+						{
+							"navn": "Squash"
+						},
+						{
+							"navn": "Portobello svampe"
+						},
+						{
+							"navn": "Peberfrugt"
+						},
+						{
+							"navn": "Rødløg"
+						}
+					]
+				},
+				{
+					"ingrediens": [
+						{
+							"navn": "Tzatziki"
+						},
+						{
+							"navn": "Fladbrød"
+						}
+					]
+				}
+			]
 		}
 	]
 }
